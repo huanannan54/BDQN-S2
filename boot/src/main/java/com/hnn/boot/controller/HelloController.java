@@ -18,6 +18,7 @@ public class HelloController {
 //	@ResponseBody //将返回的格式 转成json字符 给前端。
 	public String hello2() {
 		System.out.println("进入hello2方法");
+		System.out.println("进入hello2方法");
 		return "hello";
 	}
 	
