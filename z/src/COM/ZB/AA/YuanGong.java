@@ -1,0 +1,38 @@
+package COM.ZB.AA;
+
+public class YuanGong {
+	private String name;
+	private int age;
+	private String sex;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
+	public YuanGong() {
+		super();
+	}
+	public YuanGong(String name, int age, String sex) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.sex = sex;
+	}
+	
+	
+}
