@@ -1,0 +1,9 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+##spring:
+##  view:
+##    prefix: /WEB-INF/pages/
+##    suffix: .jsp
