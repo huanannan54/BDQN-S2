@@ -19,6 +19,7 @@ public class HelloController {
 	public String hello2() {
 		System.out.println("进入hello2方法");
 		System.out.println("进入hello2方法");
+		System.out.println("进入hello2方法");
 		return "hello";
 	}
 	
