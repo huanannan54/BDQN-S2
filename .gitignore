@@ -2,3 +2,9 @@ boot/target/
 boot/.settings/
 boot/.classpath
 boot/.project
+z/bin/COM/ZB/AA/Test.class
+*.class
+z/.project
+z/.classpath
+z/.settings/org.eclipse.jdt.core.prefs
+z/.settings/org.eclipse.core.resources.prefs

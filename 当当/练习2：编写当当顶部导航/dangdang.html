@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>当当网我的订单页</title>
+    <link type="text/css" rel="stylesheet" href="css/dangdang.css">
+</head>
+<body>
+<div id="menu" class="pos">
+    <a href="#">我的当当</a>
+    <ul id="menu-ul" style="display: none;">
+        <li><a href="#">我的订单</a></li>
+        <li><a href="#">我的收藏</a></li>
+        <li><a href="#">我的礼品卡</a></li>
+        <li><a href="#">我的积分</a></li>
+        <li><a href="#">我的余额</a></li>
+    </ul>
+</div>
+	<script src="js/jquery-1.12.4.js" type="text/javascript" charset="UTF-8"></script>
+	<script type="text/javascript">
+		$(function  () {
+			//mouserover 鼠标移上事件
+			$("#menu a").mouseover(function  () {
+				$("#menu-ul").css("border","1px solid black");//通过CCS添加样式
+				$("#menu-ul").show();//显示
+			});
+			//mouser鼠标离开事件
+			$("#menu a").mouseout(function  () {
+				$("#menu-ul").css("border","none");//通过css添加样式
+				$("#menu-ul ").hide();//隐藏
+			});
+		})
+	</script>
+
+</body>
+</html>

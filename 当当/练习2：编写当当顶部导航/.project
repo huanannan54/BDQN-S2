@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>练习1：制作京东首页右侧固定层</name>
+	<name>练习2：编写当当顶部导航</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1588151870648</id>
+			<id>1586938797664</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -25,7 +25,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1588152584127</id>
+			<id>1588829334135</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
