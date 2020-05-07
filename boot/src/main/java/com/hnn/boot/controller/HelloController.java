@@ -9,34 +9,35 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
 
 	@RequestMapping("/1")
-	@ResponseBody //½«·µ»ØµÄ¸ñÊ½ ×ª³Éjson×Ö·û ¸øÇ°¶Ë¡£
+	@ResponseBody //è¿™ä¸ªæ³¨è§£ä»£è¡¨è¿”å›çš„ä¸º json å­—ç¬¦ç©¿
 	public String hello() {
-		return "ÄãºÃ£¬ÕâÊÇÎÒµÄµÚÒ»¸öboot ÏîÄ¿";
+		return "æ¬¢è¿æ¥åˆ°å¾·è±è”ç›Ÿï¼Œ";
 	}
 	
 	@RequestMapping("/2")
-//	@ResponseBody //Èç¹ûÃ»ÓĞÕâ¸ö ×¢½â£¬¾Í´ú±í "hello" ÊÇjsp Ò³ÃæµÄÃû×Ö¡£
+//	@ResponseBody //æ²¡æœ‰è¿™ä¸ªæ³¨è§£  return hello  è¡¨ç¤º è·³è½¬åˆ° hello.jspé¡µé¢
 	public String hello2() {
-		System.out.println("½øÈëhello2·½·¨");
-		System.out.println("½øÈëhello2·½·¨");
-		System.out.println("½øÈëhello2·½·¨");
-		return "hello";//·µ»ØÒ³ÃæÃû×ÖÎª helloµÄÎÄ¼ş¡£
+		return "hello";//è·³è½¬åˆ°é¡µé¢
 	}
 	
 	public static void getUers(String userName){
-		System.out.println("ÎÒÒª³Ô·¹");
+		System.out.println("ä¸­æ–‡");
 	}
 	/**
-	 * ÖØÔØµÄÇ°Ìá£º ·½·¨ÃûÒ»Ñù£¬ ·½·¨ÀàĞÍºÍ¸öÊı²»ÄÜÍêÈ«Ò»Ñù£¬·ñÔò±àÒë±¨´í¡£
-	 * ÒªÃ´·½·¨¡¾²ÎÊı¡¿µÄ¡¾¸öÊı¡¿²»Ò»Ñù£¬ÒªÃ´¾ÍÊÇ¡¾ÀàĞÍ¡¿²»Ò»Ñù£¬ ÒªÃ´¾ÍÊÇ¡¾Ë³Ğò¡¿²»Ò»Ñù
+	 * æ–¹æ³•é‡è½½çš„å‰æ æ˜¯æ–¹æ³•åä¸€æ · 
 	 * 
-	 * ·½·¨ÖØÔØ ¸ú·µ»ØÀàĞÍ Ã»¹ØÏµ
-	 * ²ÎÊı²»ÄÜÒ»Ñù
-	 * ²ÎÊı¸öÊı²»Ò»Ñù
-	 * ²ÎÊıÀàĞÍµÄË³Ğò²»Ò»Ñù
+	 * æ–¹æ³•çš„å‚æ•°ç±»å‹ä¸åŒ
+	 * æˆ–è€…
+	 * æ–¹æ³•çš„å‚æ•°ä¸ªæ•°ä¸åŒ
+	 * æˆ–è€…
+	 * æ–¹æ³•çš„å‚æ•°ç±»å‹é¡ºåºä¸åŒ
+	 * 
+	 * @param id
+	 * @return
 	 */
+
 	public static String getUers(int id){
-		System.out.println("ÎÒÒªºÈË®");
+		System.out.println("è‹±æ–‡Ë®");
 		return "";
 	}
 	
