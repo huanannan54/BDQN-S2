@@ -2,3 +2,5 @@ boot/target/
 boot/.settings/
 boot/.classpath
 boot/.project
+boot/.idea
+boot.iml
