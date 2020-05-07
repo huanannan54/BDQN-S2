@@ -1,8 +1,18 @@
 spring:
-  mvc:
-    view:
-      prefix: /WEB-INF/pages/
-      suffix: .jsp
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/ #路径前缀
+    suffix: .html #路径后缀
+    encoding: UTF-8
+    content-type: text/html
+    mode: HTML5
+
+#spring:
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/pages/
+#      suffix: .jsp
+
 ##spring:
 ##  view:
 ##    prefix: /WEB-INF/pages/
