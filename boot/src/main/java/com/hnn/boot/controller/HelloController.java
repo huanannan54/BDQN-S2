@@ -23,22 +23,26 @@ public class HelloController {
 		return "hello";//返回页面名字为 hello的文件。
 	}
 	
-	public static void aa(int a){
+	public static void getUers(String userName){
 		System.out.println("我要吃饭");
 	}
 	/**
+	 * 重载的前提： 方法名一样， 方法类型和个数不能完全一样，否则编译报错。
+	 * 要么方法【参数】的【个数】不一样，要么就是【类型】不一样， 要么就是【顺序】不一样
+	 * 
 	 * 方法重载 跟返回类型 没关系
 	 * 参数不能一样
+	 * 参数个数不一样
+	 * 参数类型的顺序不一样
 	 */
-	public static String aa(String i){
+	public static String getUers(int id){
 		System.out.println("我要喝水");
 		return "";
 	}
 	
+	
+	
 	public static void main(String[] args) {
-		HelloController.aa(1);
-		HelloController.aa("");
-		
 		
 	}
 	
