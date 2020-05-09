@@ -19,6 +19,11 @@ public class HelloController {
 	public String hello2() {
 		return "hello";//跳转到页面
 	}
+
+    @RequestMapping("/3")
+    public String hello3() {
+        return "Hello";//首字母没有区分大小写
+    }
 	
 	public static void getUers(String userName){
 		System.out.println("中文");
